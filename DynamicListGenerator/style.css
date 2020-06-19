@@ -1,0 +1,27 @@
+.first {
+  border: 1px solid rgb(20, 43, 20);
+
+  color: indigo;
+  background-color: rgb(152, 192, 112);
+}
+
+.second {
+  border: 1px solid rgb(20, 21, 90);
+
+  color: rgb(116, 34, 34);
+  background-color: rgb(238, 114, 42);
+}
+
+.third {
+  border: 1px solid rgb(20, 43, 20);
+
+  color: rgb(236, 235, 236);
+  background-color: rgb(7, 10, 4);
+}
+
+.list {
+  border: 1px solid rgb(128, 133, 128);
+
+  color: indigo;
+  background-color: rgb(158, 158, 157);
+}
