@@ -1,0 +1,60 @@
+body {
+  padding: 10px;
+}
+
+.carousel {
+  width: 398px;
+
+  border: 10px solid teal;
+ /* top/bottom and rigth/left padding */
+  padding: 10px 40px;
+  position: relative;
+  border-radius: 15px;
+  background: rgb(155, 141, 141);
+}
+
+.carousel img {
+  width: 130px;
+  height: 130px;
+  display: block; /*image beech ko gap lai hatauna */
+}
+
+#prev {
+  left: 7px;
+  top: 60px;
+  display: block;
+  /* realative position will overlapp our imagaes because 
+  left 7px means draw prec button wrt gallery container but 
+  if we gave absolute then button will be drawn wrt to main container(div=carousel) */
+  position: absolute;
+  background-color: tomato;
+  /* button ko second calls name ie prev use garyo 
+    i.e individual css change*/
+}
+#next {
+  right: 7px;
+  top: 60px;
+  background-color: tomato;
+  position: absolute;
+}
+.gallery {
+  width: 390px;
+
+  overflow: hidden;
+  /*display width or screen size of 390px ma na atayeko image lai hide gareko  */
+}
+.gallery ul {
+  height: 130px;
+  /* large ribbon of image with width 9999px banako so that image fits into one line of computer */
+  width: 9999px;
+  margin: 0px;
+
+  padding: 0;
+  list-style: none;
+  /* slidin action ko laagi just like we did in the moving ball */
+  transition: margin-left 5s;
+  font-size: 0;
+}
+.gallery li {
+  display: inline-block;
+}

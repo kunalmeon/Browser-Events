@@ -1,0 +1,13 @@
+body{
+    background-color: cadetblue;
+}
+#btn{
+    background-color: rgb(185, 128, 131);
+    box-shadow: darkgreen;
+}
+#ulList{
+    cursor: pointer;
+}
+.selected{
+    background: rgb(167, 115, 115);
+}

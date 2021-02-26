@@ -1,0 +1,27 @@
+
+#menu ul{
+    margin: 0;
+    list-style: none;
+    padding-left: 5px;
+    display: none;
+}
+/* list ko item lai pahila hide garera paxi btn action baata class name
+change(toggle) garera item lai show garne. toggle baata dynamically class banaye jasma item
+pahile kai rakhyo */
+#menu.open ul {
+    
+    display: block;
+    
+
+}
+.itmBrkFst{
+    padding-left: 10px;
+}
+#menu .itmBrkFst::before{ /*menu nakholda order ko agadi ">"*/
+    content: '>';
+}
+#menu.open .itmBrkFst::before{/*menu khole paxi i.e #menu.open order ko agadi "^"*/
+    content: '^';
+}
+
+

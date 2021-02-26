@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TreeMenuBar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mainMenu">
+      <h1>Menu</h1>
+      <ul class="subMenu">
+        <li data-food="food" id="itm1">Food</li>
+        <ul id="food" hidden>
+          <li>DryFood</li>
+          <li>Vegetables</li>
+          <li>Fruits</li>
+          <li data-food="morefood">More</li>
+          <ul id="morefood" hidden>
+            <li>Vist Us</li>
+            <li>Call Us</li>
+          </ul>
+        </ul>
+        <li data-food="cloths" id="itm2">Cloth</li>
+        <ul id="cloths" hidden>
+          <li>Ladies</li>
+          <li>Gents</li>
+          <li>Children</li>
+          <li data-food="morecloth">More</li>
+          <ul id="morecloth" hidden>
+            <li>Vist Us</li>
+            <li>Call Us</li>
+          </ul>
+        </ul>
+        <li data-food="entertainment" id="itm3">Entertainment</li>
+        <ul id="entertainment" hidden>
+          <li>Muisic</li>
+          <li>Movies</li>
+          <li>Sports</li>
+          <li data-food="moreent">More</li>
+          <ul id="moreent" hidden>
+            <li>Vist Us</li>
+            <li>Call Us</li>
+          </ul>
+        </ul>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

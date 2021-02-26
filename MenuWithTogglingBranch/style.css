@@ -1,0 +1,33 @@
+body {
+  margin: 20px;
+}
+#mainMenu {
+  background-color: burlywood;
+  display: inline-block;
+  margin: 0;
+  padding: 15px;
+}
+#food {
+  list-style: upper-roman;
+  font-family: fantasy;
+  font-size: 1.5em;
+}
+#cloths {
+  list-style: upper-roman;
+  font-family: fantasy;
+  font-size: 1.5em;
+}
+#entertainment {
+  list-style: upper-roman;
+  font-family: fantasy;
+  font-size: 1.5em;
+}
+#itm1,
+#itm2,
+#itm3 {
+  font-size: 2em;
+}
+#mainMenu ul {
+  cursor: pointer;
+  transition: 3s all;
+}

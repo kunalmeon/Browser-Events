@@ -1,0 +1,19 @@
+#head{
+    
+    column-span: 2;
+    background-color: dimgrey;
+    
+}
+#body{
+    color: rgb(17, 19, 19);
+    background-color: rgb(221, 169, 169);
+    
+}
+th:hover{
+color: coral;
+cursor: pointer;
+background-color: darkcyan;
+}
+#body tr{
+    transition: 4s all;
+}
