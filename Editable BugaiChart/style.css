@@ -1,0 +1,64 @@
+body{
+    padding: 20px;
+}
+#chart{
+    width: 600px;
+    position: relative;
+    border: 10px skyblue solid;
+    height: 500px;
+    align-items: center;
+}
+
+.nw{
+    background-color: silver;
+    height: 120px;
+    width: 300px;
+}
+  
+.nt{
+    background-color: blue;
+    height: 120px;
+    width: 300px;
+}
+.ne{
+    background-color: yellow;
+    height: 120px;
+    width: 300px;
+}
+.we{
+    background-color: yellow;
+    height: 120px;
+    width: 300px;
+}
+.ctr{
+    background-color: purple;
+    height: 120px;
+    width: 300px;
+}
+.e{
+    background-color: turquoise;
+    height: 120px;
+    width: 300px;
+
+}
+.sw{
+    background-color: rgb(110, 53, 53);
+    height: 120px;
+    width: 300px;
+
+}
+.st{
+    background-color: orange;
+    height: 120px;
+    width: 300px;
+    
+}
+.se{
+    background-color: green;
+    height: 120px;
+    width: 300px;
+}
+.editable{
+    height: 120px;
+    width: 200px;
+}

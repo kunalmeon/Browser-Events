@@ -1,0 +1,42 @@
+body{
+    padding: 20px;
+}
+#chart{
+    width: 600px;
+    position: relative;
+    border: 10px skyblue solid;
+    height: 500px;
+    align-items: center;
+}
+
+.nw{
+    background-color: silver;
+}
+  
+.nt{
+    background-color: blue;
+}
+.ne{
+    background-color: yellow;
+}
+.we{
+    background-color: yellow;
+}
+.ctr{
+    background-color: purple;
+}
+.e{
+    background-color: turquoise;
+
+}
+.sw{
+    background-color: rgb(110, 53, 53);
+
+}
+.st{
+    background-color: orange;
+    
+}
+.se{
+    background-color: green;
+}

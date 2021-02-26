@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventHandlers</title>
+  </head>
+  <body>
+    <!-- Basic about Event Handling -->
+
+    <!-- (1). We can set event and the handler right into the html attribute e.g -->
+    <input
+      type="text"
+      id="psw"
+      value="UserName"
+      ondblclick="alert('enter userName')"
+    />
+    <!-- note while using html attribute for event syntax is on+eventName. Also we
+    can pass function on link onevent="function()". Here we have to call fucntion because when 
+    broswer loads it creats a handler,body of handler contains methods which are made from html attributes
+ -->
+ <!-- (2) the second way of event handling is by using DOM property ie html and js like below -->
+ <!-- (2.a) html part -->
+ <input type="button" id="btn" value="clickMeHtml">
+ <input type="button" id="obj" value="objectBtn">
+
+    <input type="button" value="clickME" id="messageButton" />
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+#mouse{
+    position: fixed;
+}
+#mouse:focus{
+    color: red;
+    
+    
+}

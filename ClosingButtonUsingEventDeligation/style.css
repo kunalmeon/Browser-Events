@@ -1,0 +1,25 @@
+body{
+    margin: 1em;
+
+}
+.article{
+
+    background-color:yellow ;
+    position: relative;
+}
+.close{
+    position: absolute;
+    right: 7px;
+    top: 0;
+    cursor: pointer;
+}
+#news{
+    border: 6px black dotted;
+}
+#heading{
+    font-size: 2rem;
+    padding: 70px;
+    color: brown;
+}
+
+
